@@ -77,7 +77,10 @@ background_label = tk.Label(root, image=background_image)
 background_label.place(relwidth=1, relheight=1)
 
 frame1 = tk.Frame(root, bg='#779EC6', bd=5)
-frame1.place(relx=0.5, rely=0.32, relwidth=0.75, relheight=0.1, anchor='n')
+frame1.place(relx=0.5, rely=0.1, relwidth=0.75, relheight=0.1, anchor='n')
+
+frame2 = tk.Frame(root, bg='#779EC6', bd=5)
+frame2.place(relx=0.5, rely=0.32, relwidth=0.75, relheight=0.1, anchor='n')
 
 #File name
 '''entry2 = tk.Entry(frame1, font=30)
@@ -95,7 +98,13 @@ label.place(relwidth=1, relheight=1)#comment second
 button2= tk.Button(frame1, text = "Generate", font=40, command=lambda: Key_Generator.test_fun_pass())#test_fun())
 button2.place(relx=0.2,relheight=1, relwidth=0.3,anchor = 'n')
 button2 = tk.Button(frame1, text="Read Key", font=40, command=lambda: Key_Generator.test_fun_read())
-button2.place(relx=0.85, relheight=1, relwidth=0.3,anchor = 'n')
+button2.place(relx=0.8, relheight=1, relwidth=0.3,anchor = 'n')
+
+button3 = tk.Button(frame2, text="Krypto", font=40, command=lambda: Key_Generator.testEncr())
+button3.place(relx=0.2, relheight=1, relwidth=0.3,anchor = 'n')
+
+button2 = tk.Button(frame2, text="Dekrypto", font=40, command=lambda: Key_Generator.testDecr())
+button2.place(relx=0.8, relheight=1, relwidth=0.3,anchor = 'n')
 ##########################
 
 
