@@ -1,4 +1,6 @@
 from cryptography.fernet import Fernet
+import base64
+import os
 
 #Write to File
 def test_fun():
@@ -15,3 +17,6 @@ def test_fun_read():
     file.close()
     print("Read Key is:")
     print(key)
+
+#passsword
+def test_fun_pass():
