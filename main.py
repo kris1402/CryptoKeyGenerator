@@ -92,14 +92,12 @@ label = tk.Label(lower_frame)
 label.place(relwidth=1, relheight=1)#comment second
 
 #########################
-button2= tk.Button(frame1, text = "Generate", font=40, command=lambda: Key_Generator.test_fun())
+button2= tk.Button(frame1, text = "Generate", font=40, command=lambda: Key_Generator.test_fun_pass())#test_fun())
 button2.place(relx=0.2,relheight=1, relwidth=0.3,anchor = 'n')
 button2 = tk.Button(frame1, text="Read Key", font=40, command=lambda: Key_Generator.test_fun_read())
 button2.place(relx=0.85, relheight=1, relwidth=0.3,anchor = 'n')
 ##########################
 
-
-#Mariusz is and stupido
 
 
 root.mainloop()
