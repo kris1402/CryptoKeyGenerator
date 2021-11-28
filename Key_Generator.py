@@ -84,6 +84,7 @@ def testEncr():
     # Write to encrypted file
     with open('EncodeMessage.txt.encrypted', 'wb') as f:
         f.write(encrypted)
+    print("Message Crypted")
 
 def testDecr():
     # Get the key from the file
@@ -103,5 +104,6 @@ def testDecr():
 
     with open('DecodeMessage.txt', 'wb') as f:
         f.write(decrypted)
+    print("Message Decrypted")
 
 
