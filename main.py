@@ -89,7 +89,7 @@ lower_frame = tk.Frame(root, bg='#779EC6', bd=10)
 lower_frame.place(relx=0.5, rely=0.45, relwidth=0.75, relheight=0.4, anchor='n')
 
 label = tk.Label(lower_frame)
-label.place(relwidth=1, relheight=1)#comment
+label.place(relwidth=1, relheight=1)#comment second
 
 #########################
 button2= tk.Button(frame1, text = "Generate", font=40, command=lambda: Key_Generator.test_fun())
