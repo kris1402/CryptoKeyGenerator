@@ -99,7 +99,7 @@ button2.place(relx=0.85, relheight=1, relwidth=0.3,anchor = 'n')
 ##########################
 
 
-
+#Mariusz is and stupido
 
 
 root.mainloop()
